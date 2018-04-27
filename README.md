@@ -235,3 +235,44 @@ CRFClassifier tagged 12 words in 1 documents at 123.71 words per second.
 ```
 
 From the output, we verify that *Emma Woodhouse* is tagged as a *PERSON* successfully.
+
+## Classes Available
+
+### From NLTK
+
+```bash
+ORGANIZATION - Georgia-Pacific Corp., WHO
+PERSON - Eddy Bonte, President Obama
+LOCATION - Murray River, Mount Everest
+DATE - June, 2008-06-29
+TIME - two fifty a m, 1:30 p.m.
+MONEY - 175 million Canadian Dollars, GBP 10.40
+PERCENT - twenty pct, 18.75 %
+FACILITY - Washington Monument, Stonehenge
+GPE - South East Asia, Midlothian  
+```
+
+### From Spacy
+
+https://spacy.io/usage/linguistic-features#named-entities
+
+```bash
+PERSON	People, including fictional.
+NORP	Nationalities or religious or political groups.
+FACILITY	Buildings, airports, highways, bridges, etc.
+ORG	Companies, agencies, institutions, etc.
+GPE	Countries, cities, states.
+LOC	Non-GPE locations, mountain ranges, bodies of water.
+PRODUCT	Objects, vehicles, foods, etc. (Not services.)
+EVENT	Named hurricanes, battles, wars, sports events, etc.
+WORK_OF_ART	Titles of books, songs, etc.
+LAW	Named documents made into laws.
+LANGUAGE	Any named language.
+DATE	Absolute or relative dates or periods.
+TIME	Times smaller than a day.
+PERCENT	Percentage, including "%".
+MONEY	Monetary values, including unit.
+QUANTITY	Measurements, as of weight or distance.
+ORDINAL	"first", "second", etc.
+CARDINAL	Numerals that do not fall under another type.
+```
